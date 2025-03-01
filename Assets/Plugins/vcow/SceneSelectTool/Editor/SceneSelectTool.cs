@@ -45,9 +45,8 @@ namespace Plugins.vcow.SceneSelectTool.Editor
 		private void DrawScenesList(IEnumerable<string> scenesPaths)
 		{
 			var scenesPathsArray = scenesPaths.ToArray();
-			for (var i = 0; i < scenesPathsArray.Length; i++)
+			foreach (var path in scenesPathsArray)
 			{
-				var path = scenesPathsArray[i];
 				var sceneName = Path.GetFileNameWithoutExtension(path);
 				var pressed = GUILayout.Button(sceneName,
 					new GUIStyle(GUI.skin.GetStyle("Button")) { alignment = TextAnchor.MiddleLeft });
