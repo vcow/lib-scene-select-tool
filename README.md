@@ -10,9 +10,9 @@ https://github.com/vcow/lib-scene-select-tool.git#upm
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or
 ```
-https://github.com/vcow/lib-scene-select-tool.git#1.0.0
+https://github.com/vcow/lib-scene-select-tool.git#1.0.1
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if you want to install exactly 1.0.0 version.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if you want to install exactly 1.0.1 version.
 3. From OpenUPM.<br/>Go to __Edit -> Project Settings -> Package Manager__ and add next scoked registry:
 * __Name__: package.openupm.com
 * __URL__: https://package.openupm.com
@@ -32,12 +32,12 @@ https://github.com/vcow/lib-scene-select-tool.git#1.0.0
 ```
 {
   "dependencies": {
-    "com.vcow.scene-select-tool": "https://github.com/vcow/lib-scene-select-tool.git#1.0.0",
+    "com.vcow.scene-select-tool": "https://github.com/vcow/lib-scene-select-tool.git#1.0.1",
     ...
   }
 }
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if you want to install exactly 1.0.0 version.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if you want to install exactly 1.0.1 version.
 
 ## How to use
 Open tool __Tools -> Scene Select Tool__ and select scene from the list. You can dock this window for greater convenience.
